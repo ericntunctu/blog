@@ -20,6 +20,11 @@ $$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
 \end{array}
 \right\}.$$ 
 
+同理<br>
+$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)> =\frac{\lambda _{123}}{\left|x_1-x_2\right|{}^a\left|x_2-x_3\right|{}^b\left|x_1-x_3\right|{}^c}.$$ <br>
+Following similar steps, one can show that
+$$a=\frac{\left(\Delta _1+\Delta _2-\Delta _3\right)}{2},b=\frac{\left(\Delta _3+\Delta _2-\Delta _1\right)}{2},c=\frac{\left(\Delta _1+\Delta _3-\Delta _2\right)}{2}.$$
+
 ### OPE
 OPE是一個神奇的物件，如果我們假定OPE是正確的，那麼我們就有了很妙的東西
 $$O_1(X_1)O_2(X_2)=\Sigma C_{12J}O_J(X_3)$$
