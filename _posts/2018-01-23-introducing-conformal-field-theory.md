@@ -9,7 +9,7 @@ title: Introducing conformal field theory
 
 由此可見，CFT一個具有保角對稱的量子場論，這個不同於一般的Loretz場論和標準粒子模型(like [QED](https://en.wikipedia.org/wiki/Quantum_electrodynamics))，這有什麼好處呢?首先就是因為對稱性加強了，所以有更多的計算是可以算的，cft裡的state可以被分類成兩種，一種叫做primary operator，一種叫做descendent operator，primary operator決定了descendent operator，所以在cft裡面，所有的field content就是它具有那些primary operator。
 
-詳細的細節到底是什麼? 這個說來話長，細節可以看[EPFL Lectures on Conformal Field Theory in D>=3 Dimensions](https://arxiv.org/abs/1601.05000)，首先要知道場論的目地就是要算correlation function，在一般場論裡面correlation function牽涉到scattering amplitude，這當然很正常，因為一個物理理論，最重要的就是把你能觀察的東西跟理論能夠計算的東西作連結，然後做實驗觀察它，所以一般的場論裡面，首先寫下有哪些field(比方電子，光子，一些夸克等等)再寫下一些interaction，然後開始計算它的correlation function利用費曼圖，需要把所有可能的費曼圖加起來，中間會遇到一些問題(renormalization:重整化)，但原理上就是如此，所以計算上是非常繁瑣的，需要用到大量特殊函數和高維空間的積分等等等。
+詳細的細節到底是什麼? 這個說來話長，細節可以看[EPFL Lectures on Conformal Field Theory in D>=3 Dimensions](https://arxiv.org/abs/1601.05000)，首先要知道場論的目地就是要算correlation function，在一般場論裡面correlation function牽涉到scattering amplitude，這當然很正常，因為一個物理理論，最重要的就是把你能觀察的東西跟理論能夠計算的東西作連結，然後做實驗觀察它，所以一般的場論裡面，首先寫下有哪些field(比方電子，光子，一些夸克等等)再寫下一些interaction，然後開始計算它的correlation function利用費曼圖，需要把所有可能的費曼圖加起來，中間會遇到一些問題(renormalization:重整化)，但原理上就是如此，所以計算上是非常繁瑣的，需要用到大量特殊函數和高維空間的積分等等等。<br>
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，
 
 
