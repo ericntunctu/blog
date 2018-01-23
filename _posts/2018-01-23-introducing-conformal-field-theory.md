@@ -13,6 +13,7 @@ title: (中文) Introducing conformal field theory
 首先要知道場論的目地就是要算correlation function，在一般場論裡面correlation function牽涉到scattering amplitude，這當然很正常，因為一個物理理論，最重要的就是把你能觀察的東西跟理論能夠計算的東西作連結，然後做實驗觀察它，所以一般的場論裡面，首先寫下有哪些field(比方電子，光子，一些夸克等等)再寫下一些interaction，然後開始計算它的correlation function利用費曼圖，需要把所有可能的費曼圖加起來，中間會遇到一些問題(renormalization:重整化)，但原理上就是如此，所以計算上是非常繁瑣的，需要用到大量特殊函數和高維空間的積分等等等。<br>
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，而且不用利用費曼圖的技巧，也沒有重整化的問題，correlation function of two point 和 three point 都可以完全被保角對稱fixed住，這當然就非常強，和一般場論明顯不同，重點在於，當我們打算使用在四點的correlation function時候，會發現它沒辦法固定住，似乎我們只能做到這裡?其實不然。
 
+
 ### OPE
 OPE是一個神奇的物件，如果我們假定OPE是正確的，那麼我們就有了很妙的東西
 $$O_1(X_1)O_2(X_2)=\Sigma C_{12J}O_J(X_3)$$
