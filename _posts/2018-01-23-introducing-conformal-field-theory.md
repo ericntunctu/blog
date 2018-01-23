@@ -1,7 +1,7 @@
 ---
 
 layout: article
-title: (中文)Introducing conformal field theory
+title: (中文) 介紹保角場論 Introducing conformal field theory
 
 ---
 [conformal field theory](https://en.wikipedia.org/wiki/Conformal_field_theory) (中文又稱作保角場論)是一種近代在高能物理和數學各方面都有重要應用的理論，本文主要是想對這樣的理論做一個粗淺的介紹(盡量用中文)，更多lecture note 關於 conformal field theory 可以在 [arxiv](https://arxiv.org/) 找到。若有任何錯誤或想討論可以告知。
@@ -13,6 +13,10 @@ title: (中文)Introducing conformal field theory
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，而且不用利用費曼圖的技巧，也沒有重整化的問題，correlation function of two point 和 three point 都可以完全被保角對稱fixed住，這當然就非常強，和一般場論明顯不同，重點在於，當我們打算使用在四點的correlation function時候，會發現它沒辦法固定住，似乎我們只能做到這裡?其實不然。
 
 OPE
+OPE是一個神奇的物件，如果我們假定OPE是正確的，那麼我們就有了很妙的東西
+
+
+
 
 
  
