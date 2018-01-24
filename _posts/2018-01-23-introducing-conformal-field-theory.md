@@ -12,23 +12,20 @@ title: (中文) Introducing conformal field theory
 ### Correlation Function
 首先要知道場論的目地就是要算correlation function，在一般場論裡面correlation function牽涉到scattering amplitude，這當然很正常，因為一個物理理論，最重要的就是把你能觀察的東西跟理論能夠計算的東西作連結，然後做實驗觀察它，所以一般的場論裡面，首先寫下有哪些field(比方電子，光子，一些夸克等等)再寫下一些interaction，然後開始計算它的correlation function利用費曼圖，需要把所有可能的費曼圖加起來，中間會遇到一些問題(renormalization:重整化)，但原理上就是如此，所以計算上是非常繁瑣的，需要用到大量特殊函數和高維空間的積分等等等。<br>
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，而且不用利用費曼圖的技巧，也沒有重整化的問題，correlation function of two point 和 three point 都可以完全被保角對稱fixed住，這當然就非常強，和一般場論明顯不同
-我們可用保角變換來確定兩點函數<br>
-$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
+我們可用保角變換來確定兩點純量的函數
+<br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
 \begin{array}{cc}
 	\frac{d}{\left|x_1-x_2\right|{}^{\Delta _1+\Delta _2}} & \Delta _1=\Delta _2 \\
 	0 & \Delta _1\neq \Delta _2
 \end{array}
-\right\}.$$ 
-
-同理三點函數也可以fix住<br>
-$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)> =\frac{\lambda _{123}}{\left|x_1-x_2\right|{}^a\left|x_2-x_3\right|{}^b\left|x_1-x_3\right|{}^c}.$$ <br>
+\right\}.$$<br>
+同理三點純量函數也可以fix住
+<br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)> =\frac{\lambda _{123}}{\left|x_1-x_2\right|{}^a\left|x_2-x_3\right|{}^b\left|x_1-x_3\right|{}^c}.$$ <br>
 Following similar steps, one can show that
-$$a=\frac{\left(\Delta _1+\Delta _2-\Delta _3\right)}{2},b=\frac{\left(\Delta _3+\Delta _2-\Delta _1\right)}{2},c=\frac{\left(\Delta _1+\Delta _3-\Delta _2\right)}{2}.$$
-
+$$a=\frac{\left(\Delta _1+\Delta _2-\Delta _3\right)}{2},b=\frac{\left(\Delta _3+\Delta _2-\Delta _1\right)}{2},c=\frac{\left(\Delta _1+\Delta _3-\Delta _2\right)}{2}.$$<br>
 重點在於，當我們打算使用在四點的correlation function時候，會發現它沒辦法固定住:
-<br>
-$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)\mathcal{O}_4\left(x_4\right)> =\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{12}}\frac{g(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.$$ <br>
-此時 $$u=\left(\frac{x_{12}x_{34}}{x_{13}x_{24}}\right)^2,v=\left(\frac{x_{12}x_{34}}{x_{23}x_{14}}\right)^2.$$，$$(u, v)$$叫做 conformal cross ratio, 對於具有spin的情況我們需要更有效率的做法，叫做[embedding formalism](https://arxiv.org/abs/1107.3554) 在這裡不多說惹.
+<br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)\mathcal{O}_4\left(x_4\right)> =\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{12}}\frac{g(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.$$ <br>
+此時 $$u=\left(\frac{x_{12}x_{34}}{x_{13}x_{24}}\right)^2,v=\left(\frac{x_{12}x_{34}}{x_{23}x_{14}}\right)^2.$$，$$(u, v)$$ 叫做 conformal cross ratio, 對於具有spin的情況我們需要更有效率的做法，叫做[embedding formalism](https://arxiv.org/abs/1107.3554) 在這裡不多說惹.
 
 
 ### OPE
@@ -45,6 +42,7 @@ Conformal Bootstrap 可以視為conformal field theory的心臟，我不知道bo
 
 ### 一些目前研究的狀況和前景
 CFT復甦大概是在2008年開始:計算 3d ising model 的臨界點所導出來的，然後大家開始做了4維的Conformal Bootstrap，不只限於4個scalar，也有人在研究三維的fermion和增加了超對稱的cft.<br>
-另一個方向是來自1995 Maldacena的 conjecture called [AdS/CFT correspondence](https://en.wikipedia.org/wiki/AdS/CFT_correspondence)
+另一個方向是來自1995 Juan Maldacena 的 conjecture called [AdS/CFT correspondence](https://en.wikipedia.org/wiki/AdS/CFT_correspondence)
+可以藉由計算Witten Diagram(類似於費曼圖在AdS空間中)來得到對應的CFT的部分資訊。這些類似文章在arxiv都有很多介紹惹。
 
 
