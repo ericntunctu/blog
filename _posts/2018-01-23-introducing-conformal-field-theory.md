@@ -47,7 +47,7 @@ c_{\Delta ,l}=\Delta (\Delta -d)+l(l+d-2).
 $$<br>
 We get
 <br>$$
-\left[\frac{1}{2}\left(M_{1AB}+M_{2AB}\right){}^2-c_{\Delta ,l}\right]W_{\cO_{\Del, J}}\left(P_i\right)=0.
+\left(\frac{1}{2}\left(M_{1AB}+M_{2AB}\right){}^2-c_{\Delta ,l}\right)W_{\cO_{\Del, J}}\left(P_i\right)=0.
 $$<br>
 Dolan and Osborn 計算了 closed form expressions for the conformal blocks of
 an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form, 只有積分表達式.
