@@ -11,7 +11,7 @@ title:               忘了鬼島忘了我
 tagline:             '人生長恨 水長東'
 description:         '一些數學物理和生活隨筆還有廢文'
 url:                 http://ericntunctu.github.io
-baseurl:            
+baseurl:             '\blog'
 paginate:            5
 
 # About/contact
