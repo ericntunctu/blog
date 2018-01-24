@@ -11,11 +11,10 @@ title: 關於我 about me
 [Some of my papers listed on inspire](https://inspirehep.net/search?p=find+eprint+1512.02934) <br>
 數學，物理，拍照，鬼島教育 <br>
 ## 愛用連結
-<ul>
-<li> 高能物理paper網站: [arxiv](https://arxiv.org/) </li>
-<li> 數學網站: [Wolfram MathWorld](http://mathworld.wolfram.com/) </li>
-<li> [inspire jhep](http://inspirehep.net/?ln=zh_TW) </li>
-</ul>
+### 高能物理paper網站: [arxiv](https://arxiv.org/) </li>
+### 數學網站: [Wolfram MathWorld](http://mathworld.wolfram.com/) </li>
+### [inspire jhep](http://inspirehep.net/?ln=zh_TW) </li>
+
 
 
 
