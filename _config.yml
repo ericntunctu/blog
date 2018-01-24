@@ -2,13 +2,15 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+relative_permalinks: false
+
 
 
 # Setup
 title:               忘了鬼島忘了我
 tagline:             '人生長恨 水長東'
 description:         '一些數學物理和生活隨筆還有廢文'
-url:                 http://lanyon.getpoole.com
+url:                 http://ericntunctu.github.io
 baseurl:             '/blog'
 paginate:            5
 
