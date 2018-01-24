@@ -12,9 +12,9 @@ title: 關於我 about me
 數學，物理，拍照，鬼島教育 <br>
 ## 愛用連結
 <ul>
-<li>高能物理paper網站:[arxiv](https://arxiv.org/)</li>
-<li>數學網站:[Wolfram MathWorld](http://mathworld.wolfram.com/)</li>
-<li>inspire jhep(http://inspirehep.net/?ln=zh_TW)</li>
+<li> 高能物理paper網站: [arxiv](https://arxiv.org/) </li>
+<li> 數學網站: [Wolfram MathWorld](http://mathworld.wolfram.com/) </li>
+<li> [inspire jhep](http://inspirehep.net/?ln=zh_TW) </li>
 </ul>
 
 
