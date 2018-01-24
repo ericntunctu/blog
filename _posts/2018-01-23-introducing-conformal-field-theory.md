@@ -12,7 +12,8 @@ title: (中文) Introducing conformal field theory
 ### Correlation Function
 首先要知道場論的目地就是要算correlation function，在一般場論裡面correlation function牽涉到scattering amplitude，這當然很正常，因為一個物理理論，最重要的就是把你能觀察的東西跟理論能夠計算的東西作連結，然後做實驗觀察它，所以一般的場論裡面，首先寫下有哪些field(比方電子，光子，一些夸克等等)再寫下一些interaction，然後開始計算它的correlation function利用費曼圖，需要把所有可能的費曼圖加起來，中間會遇到一些問題(renormalization:重整化)，但原理上就是如此，所以計算上是非常繁瑣的，需要用到大量特殊函數和高維空間的積分等等等。<br>
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，而且不用利用費曼圖的技巧，也沒有重整化的問題，correlation function of two point 和 three point 都可以完全被保角對稱fixed住，這當然就非常強，和一般場論明顯不同
-我們可用保角變換來確定兩點純量的函數
+我們可用保角變換來確定兩點純量的函數，計算來自 [
+Lectures on Conformal Field Theory](https://arxiv.org/abs/1511.04074):
 <br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
 \begin{array}{cc}
 	\frac{d}{\left|x_1-x_2\right|{}^{\Delta _1+\Delta _2}} & \Delta _1=\Delta _2 \\
@@ -29,11 +30,29 @@ $$a=\frac{\left(\Delta _1+\Delta _2-\Delta _3\right)}{2},b=\frac{\left(\Delta _3
 
 
 ### OPE
-OPE是一個神奇的物件，如果我們假定OPE是正確的，那麼我們就有了很妙的東西
+OPE是一個神奇的物件，如果我們假定OPE是正確的，那麼我們就有了很妙的東西，簡單的說ope 就是當你把兩個field成在一起時候可以把它展開成其他field:<br>
+$$
+\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)=\sum _{\mathcal{O}} \lambda _{12\mathcal{O}}C_{\mathcal{O}}\left(x_{12},\partial _y\right)\mathcal{O}(y)|_{y=0} $$ <br>
 
 
 ### Scalar And Spinning Conformal Blocks
-Conformal Blocks 是cft的重點物件之一，後面的conformal bootstrap都要依賴他，計算conformal block 主要是運用以下方法[Conformal Partial Waves: Further Mathematical Results](https://arxiv.org/abs/1108.6194)using the Casimir differential equation:
+Conformal Blocks 是cft的重點物件之一，後面的conformal bootstrap都要依賴他，計算conformal block 主要是運用以下方法 [Conformal Partial Waves: Further Mathematical Results](https://arxiv.org/abs/1108.6194) using the Casimir differential equation: 使用 OPE expasion, g(u, v) 可以被分解為conformal blocks: <br>$$ 
+\left(\sum _{i=4} M_{iAB}\right)<\mathcal{O}_1\left(P_1\right)\mathcal{O}_2\left(P_2\right)\mathcal{O}_3\left(P_3\right)\mathcal{O}_4\left(P_4\right)>=0
+$$<br>
+$$
+\frac{1}{2}M_{AB}M^{AB}\mathcal{O}_i\left(P_i\right)=c_{\Delta ,l}\mathcal{O}_i\left(P_i\right).
+$$<br>
+$$
+c_{\Delta ,l}=\Delta (\Delta -d)+l(l+d-2).
+$$<br>
+We get
+<br>$$
+\left[\frac{1}{2}\left(M_{1AB}+M_{2AB}\right){}^2-c_{\Delta ,l}\right]W_{\cO_{\Del, J}}\left(P_i\right)=0.
+$$<br>
+Dolan and Osborn 計算了 closed form expressions for the conformal blocks of
+an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form, 只有積分表達式.
+
+
 
 
 ### Conformal Bootstrap
