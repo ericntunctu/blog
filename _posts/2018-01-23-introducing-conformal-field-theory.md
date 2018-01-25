@@ -56,7 +56,11 @@ an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form,
 
 
 ### Conformal Bootstrap
-Conformal Bootstrap 可以視為conformal field theory的心臟，我不知道bootstrap要怎麼翻譯，不過也不重要，重要的是Conformal Bootstrap是用來解保角場論，一開始先假定你的CFT的spectrum，有哪些 primary fields，決定它的scaling dimension和representation，然後開始Conformal Bootstrap來檢測是否滿足crossing symmetry，所以我們可以講，一個well defined的CFT 就是自洽的OPE和a set of primary fields.一定承認了這個定義，那這個場論原則上就被全部解出，因為更高點Correlation Function都可以被OPE簡化成四點的，這樣就完整的解出這個場論。 <br>
+Conformal Bootstrap 可以視為conformal field theory的心臟，我不知道bootstrap要怎麼翻譯，不過也不重要，重要的是Conformal Bootstrap是用來解保角場論，一開始先假定你的CFT的spectrum，有哪些 primary fields，決定它的scaling dimension和representation，然後開始Conformal Bootstrap來檢測是否滿足crossing symmetry，所以我們可以講，一個well defined的CFT 就是自洽的OPE和a set of primary fields.一定承認了這個定義，那這個場論原則上就被全部解出，因為更高點Correlation Function都可以被OPE簡化成四點的，這樣就完整的解出這個場論(以下演示一下方法)。 <br>
+We have the conformal block expansion (四個一樣的scalar):<br>
+$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)\mathcal{O}_4\left(x_4\right)> =\frac{g(u,v)}{x_{12}^{2\Delta}x_{34}^{2\Delta_}}.$$ <br>
+$$g(u,v)=\lambda_{\phi\phi\mathcal{O}}^2 g_{\delta,l}(u, v)$$<br>如果我們交換展開的順序1換成3,2換成4 則會有<br>
+$$g(u,v)=(\frac{u}{v})^{\delta_{\phi}} g_{\delta,l}(v, u)$$<br> 圖示如下
 <img src="{{ site.baseurl }}/image/cft.png" height="200px;"> <br>
 
 
