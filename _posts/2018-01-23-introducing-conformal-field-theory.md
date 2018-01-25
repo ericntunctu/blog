@@ -52,8 +52,9 @@ $$<br>
 Dolan and Osborn 計算了 closed form expressions for the conformal blocks of
 an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form, 只有積分表達式.<br>
 $$
-W_{\mathcal{O}_{\Delta, J}}=\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{34}}\frac{g_{\Delta, l}(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.
-$$<br>
+W_{\mathcal{O}_{\Delta, l}}=\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{34}}\frac{g_{\Delta, l}(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.
+$$<br> 
+此刻 $$(\Delta, l)$$ 是中間可能出現的primary field.
 
 
 
