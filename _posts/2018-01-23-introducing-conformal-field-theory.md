@@ -62,6 +62,7 @@ $$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(
 $$g(u,v)=\Sigma\lambda_{\phi\phi\mathcal{O}}^2 g_{\Delta,l}(u, v)$$<br>如果我們交換展開的順序1換成3,2換成4 則會有<br>
 $$g(u,v)=(\frac{u}{v})^{\Delta_{\phi}} g_{\Delta,l}(v, u)$$<br> 圖示如下
 <img src="{{ site.baseurl }}/image/cft.png" height="200px;"> <br>
+這個複雜的條件就叫做crossing symmetry. 也就是bootstrap condition.一般會使用semidefinite programming來解決這個問題
 
 
 
