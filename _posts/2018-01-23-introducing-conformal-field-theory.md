@@ -25,7 +25,7 @@ Lectures on Conformal Field Theory](https://arxiv.org/abs/1511.04074):
 Following similar steps, one can show that
 $$a=\frac{\left(\Delta _1+\Delta _2-\Delta _3\right)}{2},b=\frac{\left(\Delta _3+\Delta _2-\Delta _1\right)}{2},c=\frac{\left(\Delta _1+\Delta _3-\Delta _2\right)}{2}.$$<br>
 重點在於，當我們打算使用在四點的correlation function時候，會發現它沒辦法固定住:
-<br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)\mathcal{O}_4\left(x_4\right)> =\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{12}}\frac{g(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.$$ <br>
+<br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)\mathcal{O}_4\left(x_4\right)> =\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{34}}\frac{g(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.$$ <br>
 此時 $$u=\left(\frac{x_{12}x_{34}}{x_{13}x_{24}}\right)^2,v=\left(\frac{x_{12}x_{34}}{x_{23}x_{14}}\right)^2.$$，$$(u, v)$$ 叫做 conformal cross ratio, 對於具有spin的情況我們需要更有效率的做法，叫做[embedding formalism](https://arxiv.org/abs/1107.3554) 在這裡不多說惹.
 
 
@@ -50,7 +50,10 @@ We get
 \left(\frac{1}{2}\left(M_{1AB}+M_{2AB}\right){}^2-c_{\Delta ,l}\right)W_{\mathcal{O}_{\Delta, J}}\left(P_i\right)=0.
 $$<br>
 Dolan and Osborn 計算了 closed form expressions for the conformal blocks of
-an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form, 只有積分表達式.
+an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form, 只有積分表達式.<br>
+$$
+W_{\mathcal{O}_{\Delta, J}}=\left(\frac{x_{24}}{x_{14}}\right)^{\Delta _{12}}\left(\frac{x_{14}}{x_{13}}\right)^{\Delta _{34}}\frac{g_{\Delta, l}(u,v)}{x_{12}^{\Delta _1+\Delta _2}x_{34}^{\Delta _3+\Delta _4}}.
+$$<br>
 
 
 
@@ -60,7 +63,7 @@ Conformal Bootstrap 可以視為conformal field theory的心臟，我不知道bo
 We have the conformal block expansion (四個一樣的scalar):<br>
 $$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)\mathcal{O}_4\left(x_4\right)>=\frac{g(u,v)}{x_{12}^{2\Delta}x_{34}^{2\Delta}}$$ <br>
 $$g(u,v)=\Sigma\lambda_{\phi\phi\mathcal{O}}^2 g_{\Delta,l}(u, v)$$<br>如果我們交換展開的順序1換成3,2換成4 則會有<br>
-$$g(u,v)=(\frac{u}{v})^{\Delta_{\phi}} g_{\Delta,l}(v, u)$$<br> 圖示如下
+$$g(u,v)=(\frac{u}{v})^{\Delta_{\phi}} g(v, u)$$<br> 圖示如下
 <img src="{{ site.baseurl }}/image/cft.png" height="200px;"> <br>
 這個複雜的條件就叫做crossing symmetry. 也就是bootstrap condition.一般會使用semidefinite programming來解決這個問題
 
