@@ -57,7 +57,7 @@ an arbitrary spin-l primary in d = 2, 4. 奇數維度情況則沒有closed form,
 
 ### Conformal Bootstrap
 Conformal Bootstrap 可以視為conformal field theory的心臟，我不知道bootstrap要怎麼翻譯，不過也不重要，重要的是Conformal Bootstrap是用來解保角場論，一開始先假定你的CFT的spectrum，有哪些 primary fields，決定它的scaling dimension和representation，然後開始Conformal Bootstrap來檢測是否滿足crossing symmetry，所以我們可以講，一個well defined的CFT 就是自洽的OPE和a set of primary fields.一定承認了這個定義，那這個場論原則上就被全部解出，因為更高點Correlation Function都可以被OPE簡化成四點的，這樣就完整的解出這個場論。 <br>
-<img src="/image/cft.png" height="100px;"> <br>
+<img src="blog/image/cft.png" height="100px;"> <br>
 
 
 
