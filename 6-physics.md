@@ -1,5 +1,5 @@
 ---
 layout: post
-title: 物理文章目錄 	& rarr;	(physics)
+title: 物理文章目錄 	&& \rm &&;	(physics)
 ---
 
