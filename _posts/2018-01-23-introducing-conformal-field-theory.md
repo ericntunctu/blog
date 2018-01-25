@@ -12,14 +12,16 @@ title: (中文) Introducing conformal field theory
 ### Correlation Function
 首先要知道場論的目地就是要算correlation function，在一般場論裡面correlation function牽涉到scattering amplitude，這當然很正常，因為一個物理理論，最重要的就是把你能觀察的東西跟理論能夠計算的東西作連結，然後做實驗觀察它，所以一般的場論裡面，首先寫下有哪些field(比方電子，光子，一些夸克等等)再寫下一些interaction，然後開始計算它的correlation function利用費曼圖，需要把所有可能的費曼圖加起來，中間會遇到一些問題(renormalization:重整化)，但原理上就是如此，所以計算上是非常繁瑣的，需要用到大量特殊函數和高維空間的積分等等等。<br>
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，而且不用利用費曼圖的技巧，也沒有重整化的問題，correlation function of two point 和 three point 都可以完全被保角對稱fixed住，這當然就非常強，和一般場論明顯不同
-我們可用保角變換來確定兩點純量的函數，計算來自 [
-Lectures on Conformal Field Theory](https://arxiv.org/abs/1511.04074):
-<br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
+我們可用保角變換來確定兩點純量的函數，計算來自 [Lectures on Conformal Field Theory](https://arxiv.org/abs/1511.04074):
+<br>
+$$x \rightarrow \lambda x , \mathcal{O}(\lambda x)=\lambda^{-\Delta}\mathcal{O}(x) $$<br>
+$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
 \begin{array}{cc}
 	\frac{d}{\left|x_1-x_2\right|{}^{\Delta _1+\Delta _2}} & \Delta _1=\Delta _2 \\
 	0 & \Delta _1\neq \Delta _2
 \end{array}
-\right\}.$$<br>
+\right\}.$$
+<br>
 同理三點純量函數也可以fix住
 <br>$$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)\mathcal{O}_3\left(x_3\right)> =\frac{\lambda _{123}}{\left|x_1-x_2\right|{}^a\left|x_2-x_3\right|{}^b\left|x_1-x_3\right|{}^c}.$$ <br>
 Following similar steps, one can show that
