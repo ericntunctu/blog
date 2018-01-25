@@ -14,10 +14,11 @@ title: (中文) Introducing conformal field theory
 但保角場論就不一樣啦，由上述的statement，我們知道，只需要計算primary operator的correlation function 即可，而且不用利用費曼圖的技巧，也沒有重整化的問題，correlation function of two point 和 three point 都可以完全被保角對稱fixed住，這當然就非常強，和一般場論明顯不同
 我們可用保角變換來確定兩點純量的函數，計算來自 [Lectures on Conformal Field Theory](https://arxiv.org/abs/1511.04074):
 <br>
-$$x \rightarrow \lambda x , \mathcal{O}'(\lambda x)=\lambda^{-\Delta}\mathcal{O}(x) $$<br>
-更一般的說 保角變換:<br>
+一般的說 保角變換:<br>
 $$ g_{\mu\nu}'(x')=c(x)\delta_{\mu\nu}(x) $$<br>
-$$ b(x)=\sqrt(c(x)) $$
+$$ b(x)=\sqrt(c(x)) $$ <br>
+一個scalar primary field定義成 <br>
+$$x \rightarrow x' , \mathcal{O}'(x')=b(x)^{-\Delta}\mathcal{O}(x) $$<br>
 
 We can use property to fixed the two point function:<br>
 $$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
