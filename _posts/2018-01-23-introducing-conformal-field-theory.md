@@ -15,6 +15,7 @@ title: (中文) Introducing conformal field theory
 我們可用保角變換來確定兩點純量的函數，計算來自 [Lectures on Conformal Field Theory](https://arxiv.org/abs/1511.04074):
 <br>
 $$x \rightarrow \lambda x , \mathcal{O}(\lambda x)=\lambda^{-\Delta}\mathcal{O}(x) $$<br>
+We can use property to fixed the two point function:<br>
 $$<\mathcal{O}_1\left(x_1\right)\mathcal{O}_2\left(x_2\right)>=\left\{
 \begin{array}{cc}
 	\frac{d}{\left|x_1-x_2\right|{}^{\Delta _1+\Delta _2}} & \Delta _1=\Delta _2 \\
