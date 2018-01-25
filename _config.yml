@@ -9,7 +9,7 @@ relative_permalinks: false
 # Setup
 title:               忘了鬼島忘了我
 tagline:             '人生長恨 水長東'
-description:         '一些數學物理和生活隨筆還有廢文'
+description:         '自是不歸歸變得 故鄉風月有誰爭'
 url:                 http://ericntunctu.github.io
 baseurl:             '\blog'
 paginate:            5
