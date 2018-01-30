@@ -18,6 +18,7 @@ title: 關於我 about me
 3.[inspire jhep](http://inspirehep.net/?ln=zh_TW) <br>
 4.[Some of my papers listed on inspire](https://inspirehep.net/search?p=find+eprint+1512.02934) <br>
 5.[hot pages](https://www.facebook.com/SGMDDCCUTE/?ref=br_rs)
+6.[who cares](http://inspirehep.net/author/profile/E.J.Kuo.1?ln=zh_TW)
 
 
 
